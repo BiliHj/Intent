@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    >
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="用户名："
+        android:textSize="25sp"
+        android:paddingBottom="50dp"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/display"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="消息展示区:"
+        android:textSize="25sp"
+        android:paddingBottom="50dp"
+        ></TextView>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登录"
+        android:width="100dp"
+        android:height="60dp"
+        ></Button>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="传送消息"
+        android:width="100dp"
+        android:height="60dp"
+        ></Button>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="网址:"
+            android:textSize="40dp"
+            ></TextView>
+        <EditText
+            android:textSize="40dp"
+            android:id="@+id/webEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="500dp"
+            >
+        </EditText>
+    </LinearLayout>
+    <Button
+        android:id="@+id/webbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="打开网址"
+        android:textSize="20dp"
+        ></Button>
+
+    <EditText
+        android:id="@+id/entryEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="500dp"
+        android:textSize="30dp"
+        ></EditText>
+    <Button
+        android:id="@+id/broadbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BroadCast"
+        ></Button>
+
+</LinearLayout>
+
+
+
